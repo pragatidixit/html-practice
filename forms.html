@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Practice</title>
+</head>
+<body>
+  <form>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter password" required>
+    <br><br>
+
+    <label for="age">Age</label>
+    <input type="number" id="age" placeholder="Enter your age">
+    <br><br>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob">
+    <br><br>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="+91 9999999999">
+    <br><br>
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+      <option value="mumbai">Mumbai</option>
+      <option value="delhi">Delhi</option>
+      <option value="bangalore">Bangalore</option>
+      <option value="kanpur">Kanpur</option>
+    </select>
+    <br><br>
+
+    <p>Gender</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <p>Hobbies</p>
+    <input type="checkbox" id="reading" name="hobbies" value="reading">
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" id="coding" name="hobbies" value="coding">
+    <label for="coding">Coding</label>
+
+    <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+    <label for="gaming">Gaming</label>
+    <br><br>
+
+    <label for="about">About Yourself</label>
+    <br>
+    <textarea id="about" rows="4" cols="40" placeholder="Tell us about yourself"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+</body>
+</html>
