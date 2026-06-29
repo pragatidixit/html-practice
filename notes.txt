@@ -1,0 +1,2 @@
+what is blocking behaviour?
+In js when synchronization is going on another process starts only after the completion of first process. This is called blocking behaviour.
